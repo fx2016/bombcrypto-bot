@@ -269,7 +269,7 @@ def alertCaptcha():
         return "not-found"
 
     logger('captcha!')
-    bell_sound.play()
+    winsound.Beep (2500, 1000)
 
     i=0
     while True:
